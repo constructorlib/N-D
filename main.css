@@ -1,6 +1,21 @@
-h1{
-    font-style: italic;
+body{
+    background-color: aliceblue;
 }
 #noC{
     font-weight: lighter;
+}
+hr{
+    margin: 0;
+    /* border: none; */
+}
+.gasgas{
+    border-color: sienna;
+    width: 20%;
+}
+.bckgr{
+    font-style: oblique;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
 }
