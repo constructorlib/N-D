@@ -19,3 +19,8 @@ hr{
     display: flex;
     justify-content: space-evenly;
 }
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
