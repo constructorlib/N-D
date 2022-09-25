@@ -4,3 +4,4 @@
 2. No catching up in the past 25 minutes. Though made a pretty decent contact website.
     Decent as in maybe it could work in 2007 websites. Also no need to have a form for btn, lol.
     You can have a button IN <a href="">
+3. Tables are old and I do not really thing I can use them. Regardless, them having cellpadding saved me from the tables looking ugly. 
