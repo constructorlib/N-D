@@ -9,6 +9,9 @@ hr{
     margin: 0;
     /* border: none; */
 }
+h1, h3{
+    color: #3F0071;
+}
 .gasgas{
     border-width: 5px;
     border-color: gray;
