@@ -1,5 +1,6 @@
 body{
-    background-color: aliceblue;
+    background-color: #E3FDFD;
+    
 }
 #noC{
     font-weight: lighter;
@@ -9,8 +10,11 @@ hr{
     /* border: none; */
 }
 .gasgas{
-    border-color: sienna;
-    width: 20%;
+    border-width: 5px;
+    border-color: gray;
+    width: 20%; 
+    border-style: none;
+    border-top-style: dotted;
 }
 .bckgr{
     font-style: oblique;
