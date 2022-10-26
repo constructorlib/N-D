@@ -6,3 +6,5 @@
     You can have a button IN <a href="">
 3. Tables are old and I do not really thing I can use them. Regardless, them having cellpadding saved me from the tables looking ugly. 
 4. Been left without a laptop for quite some time now. Now back. Today's Hot Topic is CSS. 
+5. Coming back! Midterms are over now, so I can concentrate more on my web studies. 
+6. colorhunt.co is a cool site with cool colors. 
