@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #DEF5E5;
+}
+.cats{
+    text-decoration: underline;
+}
+/* .q, .w, .e{
+    width: 200px;
+    height: 200px;
+}
+.q{
+    background-color: red;
+    border: 20px solid white;
+    padding: 10px;
+}
+.w{
+    background-color: blue;
+    margin-left: 260px;
+    border: 20px solid white;
+    padding: 10px;
+
+}
+.e{
+    margin-left: 519px;
+    background-color: black;
+    padding: 10px;
+    border: 20px solid white;
+} */
