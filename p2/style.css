@@ -4,10 +4,33 @@
 }
 body{
     background-color: #DEF5E5;
+    text-align: center;
+}
+.ctn{
+    position: relative;
+    padding: 200px;
 }
 .cats{
     text-decoration: underline;
 }
+.bcloud{
+    position: absolute;
+    margin: 0 0 0 -50px;
+    /* left: 1px; */
+}
+.tcloud{
+    position: absolute;
+    margin: -80px 0px 0 200px;
+}
+.mtn{
+    margin-top: 0;
+    position: relative;
+}
+/* 
+div{
+    position: relative;
+} */
+
 /* .q, .w, .e{
     width: 200px;
     height: 200px;
