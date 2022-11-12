@@ -1,14 +1,16 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 body{
     background-color: #DEF5E5;
     text-align: center;
+    font-family: monospace;
 }
 .ctn{
     position: relative;
-    padding: 200px;
+    padding: 150px;
 }
 .cats{
     text-decoration: underline;
@@ -25,6 +27,10 @@ body{
 .mtn{
     margin-top: 0;
     position: relative;
+}
+.h1name{
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
 }
 /* 
 div{
