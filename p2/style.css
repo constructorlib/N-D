@@ -8,7 +8,7 @@ body{
     text-align: center;
     font-family: monospace;
 }
-.ctn{
+.top-container{
     position: relative;
     padding: 150px;
 }
@@ -33,30 +33,16 @@ body{
     padding: 10px;
 }
 
-/* 
-div{
+.mid_container{
     position: relative;
-} */
-
-/* .q, .w, .e{
-    width: 200px;
-    height: 200px;
 }
-.q{
-    background-color: red;
-    border: 20px solid white;
-    padding: 10px;
+.mebar{
+    text-align: center;
 }
-.w{
-    background-color: blue;
-    margin-left: 260px;
-    border: 20px solid white;
-    padding: 10px;
-
+.me{
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    /* margin-top: 10px; */
 }
-.e{
-    margin-left: 519px;
-    background-color: black;
-    padding: 10px;
-    border: 20px solid white;
-} */
