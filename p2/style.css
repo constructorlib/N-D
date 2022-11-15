@@ -56,3 +56,12 @@ body{
     align-content: center; */
     margin-top: -30px;
 }
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.contact, a{
+    text-decoration: none;
+}
