@@ -3,14 +3,18 @@
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
 }
+hr{
+    border: 1px solid black;
+}
 body{
-    background-color: #DEF5E5;
+    background-color: #B9D7EA;
+    /* background-color: #B9E0FF; */
     text-align: center;
     font-family: monospace;
 }
 .top-container{
     position: relative;
-    padding: 150px;
+    padding-top: 60px;
 }
 .cats{
     text-decoration: underline;
@@ -18,15 +22,19 @@ body{
 .bcloud{
     position: absolute;
     margin: 0 0 0 -50px;
+    width: 6%;
     /* left: 1px; */
 }
 .tcloud{
     position: absolute;
-    margin: -80px 0px 0 200px;
+    /* margin: -100px -15px 0 100px; */
+    margin: -20px 0 0 150px;
+    width: 6%;
 }
 .mtn{
     margin-top: 0;
     position: relative;
+    width: 25%;
 }
 .h1name{
     font-family: 'Dancing Script', cursive;
