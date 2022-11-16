@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
+    /* font-family: 'Merriweather', serif; */
 }
 hr{
     border: 1px solid black;
@@ -22,23 +23,28 @@ body{
 .bcloud{
     position: absolute;
     margin: 0 0 0 -50px;
-    width: 6%;
+    width: 7%;
     /* left: 1px; */
 }
 .tcloud{
     position: absolute;
     /* margin: -100px -15px 0 100px; */
     margin: -20px 0 0 150px;
-    width: 6%;
+    width: 7%;
 }
 .mtn{
-    margin-top: 0;
+    padding-top: 0;
     position: relative;
     width: 25%;
+}
+h1{
+    font-size: 60px;
 }
 .h1name{
     font-family: 'Dancing Script', cursive;
     padding: 10px;
+    /* font-size: 12px; */
+    /* font-size: 57px; */
     /* margin-bottom: -30px; */
 }
 
