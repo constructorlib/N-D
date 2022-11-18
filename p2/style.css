@@ -59,7 +59,7 @@ h1{
     position: relative;
     text-align: center;
     width: 50%;
-    margin: 100px auto 0px auto;
+    margin: 25px auto 0px auto;
 }
 .lp{
     width: 15%;
@@ -95,7 +95,7 @@ h1{
     color: #11999E;
     font-family: monospace;
 }
-.top-container, div{
+.top-container div{
     margin: 100px auto 0px;
 }
 .footer{
