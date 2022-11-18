@@ -58,6 +58,10 @@ h1{
     position: relative;
     text-align: center;
 }
+.lp{
+    padding-bottom: 20px;
+    width: 15%;
+}
 .me{
     height: 150px;
     width: 150px;
