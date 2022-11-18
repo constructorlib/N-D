@@ -52,15 +52,19 @@ h1{
 
 .mid_container{
     position: relative;
+    text-align: center;
 }
 .filler-bar{
     padding-bottom: 20px;
     position: relative;
     text-align: center;
+    width: 50%;
+    margin: auto ;
 }
 .lp{
-    padding-bottom: 20px;
     width: 15%;
+    padding: 15px 0 30px 0px;
+
 }
 .me{
     width: 15%;
@@ -85,4 +89,8 @@ h1{
 .contact, a{
     text-decoration: none;
     color: #11999E;
+}
+.st{
+    color: #11999E;
+    font-family: monospace;
 }
