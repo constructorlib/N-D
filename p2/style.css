@@ -59,7 +59,7 @@ h1{
     position: relative;
     text-align: center;
     width: 50%;
-    margin: auto ;
+    margin: 100px auto 0px auto;
 }
 .lp{
     width: 15%;
@@ -85,6 +85,7 @@ h1{
     display: flex;
     justify-content: space-around;
     padding-bottom: 20px;
+    margin: 0px;
 }
 .contact, a{
     text-decoration: none;
@@ -93,4 +94,10 @@ h1{
 .st{
     color: #11999E;
     font-family: monospace;
+}
+.top-container, div{
+    margin: 100px auto 0px;
+}
+.footer{
+    margin: 0;
 }
