@@ -9,7 +9,6 @@ hr{
     border: 1px solid black;
 }
 body{
-    background-color: #B9D7EA;
     /* background-color: #B9E0FF; */
     text-align: center;
     font-family: monospace;
@@ -17,6 +16,7 @@ body{
 .top-container{
     position: relative;
     padding-top: 60px;
+    background-color: #B9D7EA;
 }
 .cats{
     text-decoration: underline;
@@ -50,9 +50,10 @@ h1{
     /* margin-bottom: -30px; */
 }
 
-.mid_container{
+.mid-container{
     position: relative;
     text-align: center;
+    background-color: whitesmoke;
 }
 .filler-bar{
     padding-bottom: 20px;
@@ -109,7 +110,15 @@ h1{
 }
 .footer{
     margin: 0;
+    background-color: #B9D7EA;
 }
 .filler-bar p{
     line-height: 1.5;
+}
+hr {
+    width: 5%;
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: gray;
+    margin: auto;
 }
