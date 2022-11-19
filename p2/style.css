@@ -82,6 +82,13 @@ h1{
     margin: 0;
     text-align: left;
 }
+.text{
+     /* position: absolute;
+    text-align: center; 
+    bottom: 5px;
+    align-content: center; */
+    margin-top: -30px;
+}
 .contact{
     width: 100%;
     display: flex;
