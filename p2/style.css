@@ -127,3 +127,16 @@ hr {
     text-align: center;
     margin: 0 auto;
 }
+.htwo{
+    color: #66BFBF;
+}
+.btn{
+    background-color: #11999E;
+    padding: 7px;
+    color: white;
+    width: 20%;
+    border-radius: 10px;
+    /* height: 1%; */
+    text-align: center;
+    margin-top: 20px;
+}
