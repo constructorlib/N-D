@@ -57,13 +57,14 @@ h1{
 .filler-bar{
     padding-bottom: 20px;
     position: relative;
-    text-align: center;
+    text-align: left;
     width: 50%;
     margin: 25px auto 0px auto;
 }
 .lp{
     width: 15%;
     padding: 15px 0 30px 0px;
+    float: left;
 
 }
 .me{
@@ -71,6 +72,7 @@ h1{
     margin: 10px;
     padding: 15px 0 30px 0px;
     margin: 0;
+    float: left;
     /* margin-top: 10px; */
 }
 .text{
@@ -100,4 +102,7 @@ h1{
 }
 .footer{
     margin: 0;
+}
+.filler-bar p{
+    line-height: 1.5;
 }
