@@ -57,23 +57,30 @@ h1{
 .filler-bar{
     padding-bottom: 20px;
     position: relative;
-    text-align: left;
+    text-align: center;
     width: 50%;
-    margin: 25px auto 0px auto;
+    margin: 25px auto 70px auto;
 }
 .lp{
     width: 15%;
-    padding: 15px 0 30px 0px;
+    margin-top: -22px;
+    padding: 15px 20px 30px 0px;
     float: left;
 
+}
+.cd{
+    width: 15%;
+    margin: 10px;
+    padding: 15px 0px 30px 15px;
+    margin: 0;
+    float: right;
 }
 .me{
     width: 15%;
     margin: 10px;
     padding: 15px 0 30px 0px;
     margin: 0;
-    float: left;
-    /* margin-top: 10px; */
+    text-align: center;
 }
 .text{
      /* position: absolute;
