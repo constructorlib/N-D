@@ -54,6 +54,9 @@ h1{
     position: relative;
     text-align: center;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .filler-bar{
     padding-bottom: 20px;
@@ -116,9 +119,11 @@ h1{
     line-height: 1.5;
 }
 hr {
-    width: 5%;
+    
+    width: 57px;
     border-style: dotted none none;
     border-width: 7px;
     border-color: gray;
-    margin: auto;
+    text-align: center;
+    margin: 0 auto;
 }
