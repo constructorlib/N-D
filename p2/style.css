@@ -2,14 +2,12 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
-    /* font-family: 'Merriweather', serif; */
     font-weight: normal;
 }
 hr{
     border: 1px solid black;
 }
 body{
-    /* background-color: #B9E0FF; */
     text-align: center;
     font-family: monospace;
 }
@@ -25,11 +23,9 @@ body{
     position: absolute;
     margin: 0 0 0 -50px;
     width: 7%;
-    /* left: 1px; */
 }
 .tcloud{
     position: absolute;
-    /* margin: -100px -15px 0 100px; */
     margin: -20px 0 0 150px;
     width: 7%;
 }
@@ -45,9 +41,6 @@ h1{
 .h1name{
     font-family: 'Dancing Script', cursive;
     padding: 10px;
-    /* font-size: 12px; */
-    /* font-size: 57px; */
-    /* margin-bottom: -30px; */
 }
 
 .mid-container{
@@ -87,10 +80,6 @@ h1{
     float: left;
 }
 .text{
-     /* position: absolute;
-    text-align: center; 
-    bottom: 5px;
-    align-content: center; */
     margin-top: -30px;
 }
 .contact{
