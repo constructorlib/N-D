@@ -51,12 +51,14 @@
     flex-direction: column;
 }
 .filler-bar{
-    width: 60%;
-    margin: 300px auto;
+    width: 74%;
+    margin: 200px auto;
     display: flex;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
 .footballer{
-    width: 50%;
+    width: 40%;
     /* padding: 25px; */
     float: right;
 }
