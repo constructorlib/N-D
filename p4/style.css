@@ -18,3 +18,17 @@
     width: 11%;
     margin: 45px -100px;
 }
+
+/* Body */
+
+.absolute-paragraph{
+    position: absolute;
+    width: 45%;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin: -75px 30px;
+}
+.absolute-paragraph p{
+    float: right;
+}
