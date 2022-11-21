@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-top{
+    /* display: flex; */
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+.huge-photo{
+    width: 59%;
+    margin-left: 90px;
+}
+.ru2018{
+    position: absolute;
+    float: left;
+    width: 11%;
+    margin: 45px -100px;
+}
