@@ -23,16 +23,16 @@
 
 .absolute-paragraph{
     position: absolute;
-    width: 30%;
+    width: 40%;
     background-color: black;
     color: white;
     padding: 25px;
-    margin: -150px 390px;
+    margin: -150px 200px;
 }
 .absolute-paragraph p{
     float: right;
     /* margin-top: -10px; */
-    margin: 20px 20px;
+    margin: 30px 60px;
 }
 .glogo{
     width: 8%;
@@ -40,6 +40,6 @@
     /* display: absolute; */
     /* margin-right: -150px; */
     /* padding: 5px; */
-    margin: 10px -170px;
+    margin: 10px -230px;
 
 }
