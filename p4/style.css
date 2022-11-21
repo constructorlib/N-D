@@ -43,3 +43,19 @@
     margin: 10px -230px;
 
 }
+
+/*  */
+
+.twomid{
+    display: flex;
+    flex-direction: column;
+}
+.filler-bar{
+    width: 60%;
+    margin: 300px auto;
+    display: flex;
+}
+.footballer{
+    width: 50%;
+    float: right;
+}
