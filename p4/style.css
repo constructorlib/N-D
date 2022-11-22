@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* background-color: ; */
 }
 .header-top{
     /* display: flex; */
@@ -46,9 +47,14 @@
 
 /*  */
 
+h1{
+    font-weight: normal;
+    font-size: 60px
+}
 .twomid{
     display: flex;
     flex-direction: column;
+    /* background-color: aliceblue; */
 }
 .filler-bar{
     width: 74%;
@@ -61,4 +67,12 @@
     width: 40%;
     /* padding: 25px; */
     float: right;
+}
+.filler-bar1{
+    width: 65%;
+    margin: -405px 80px;
+    display: flex;
+    font-weight: normal;
+    letter-spacing: 1px;
+    /* background-color: aliceblue; */
 }
