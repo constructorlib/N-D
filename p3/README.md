@@ -1,1 +1,1 @@
-TinDog Starting Files
+TinDog, a website for dogs to meet.
