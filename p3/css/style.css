@@ -5,7 +5,16 @@
     background-color: #ff4c68 !important;
 }
 .navbar-brand{
-    font-size: 22px !important;
+    font-weight: normal;
+    font-size: 36px !important;
+}
+
+.nav-item{
+    font-size: 18px;
+    padding: 0 18px !important;
+}
+.navbar{
+    padding-bottom: 4.5rem !important;
 }
 .h1rem{
     /* font-family: 'Montserrat-Black'; */
