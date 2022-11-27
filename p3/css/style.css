@@ -52,9 +52,12 @@
 }
 .col-lg-4 p{
     color: gray;
-    font-size: 18px;
+    font-size: 19px;
 }
 .feature-icon{
     color: #ef8172;
     margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #ff4c68;
 }
