@@ -42,8 +42,6 @@
     padding: 7% 15%;
 }
 .feature-box{
-    padding-top: 25px;
-    /* padding: 10px; */
     text-align: center;
 }
 .col-lg-4 h3{
@@ -54,8 +52,9 @@
 }
 .col-lg-4 p{
     color: gray;
+    font-size: 18px;
 }
-.fa-3x{
-    /* align-self: center; */
+.feature-icon{
     color: #ef8172;
+    margin-bottom: 1rem;
 }
