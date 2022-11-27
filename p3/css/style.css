@@ -5,24 +5,33 @@
     background-color: #ff4c68 !important;
 }
 .navbar-brand{
-    font-weight: normal;
-    font-size: 36px !important;
-}
-
-.nav-item{
-    font-size: 18px;
-    padding: 0 18px !important;
+    font-weight: bolder;
+    font-size: 38px !important;
 }
 .navbar{
     padding-bottom: 4.5rem !important;
 }
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 20px !important;
+    font-weight: light;
+}
 .h1rem{
     /* font-family: 'Montserrat-Black'; */
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     color: whitesmoke;
     font-weight: bold;
 }
 .container-fluid{
     padding: 3% 15% !important;
+}
+.btn{
+    margin: 0 6px;
+}
+.dog-image{
+    width: 60%;
+    transform: rotate(25deg);
 }
