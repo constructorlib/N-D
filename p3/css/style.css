@@ -31,8 +31,9 @@
     margin: 0 6px;
 }
 .dog-image{
-    width: 60%;
-    transform: rotate(25deg);
+    height: auto;
+    max-width: 60%;
+    transform: rotate(20deg);
 }
 
 /* Features  Section */
