@@ -31,15 +31,18 @@
     margin: 0 6px;
 }
 .dog-image{
-    height: auto;
-    max-width: 60%;
-    transform: rotate(20deg);
+    position: absolute;
+    max-width: 45%;
+    transform: rotate(25deg);
 }
 
 /* Features  Section */
 
 #features{
+    position: relative;
+    z-index: 1;
     padding: 7% 15%;
+    background-color: #fff;
 }
 .feature-box{
     text-align: center;
