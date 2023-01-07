@@ -32,7 +32,7 @@
 }
 .dog-image{
     position: absolute;
-    max-width: 45%;
+    width: 45%;
     transform: rotate(25deg);
 }
 
@@ -95,13 +95,15 @@ h2{
 
 /* Responsiveness */
 
-@media (max-width: 900px){
+@media (max-width: 1270px){
     /* header */
     .dog-image{
-        display: none;
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        margin: 20px;
     }
-    .mtname{
-        padding: 10px;
+    #title{
         text-align: center;
     }
     #dwnld{
