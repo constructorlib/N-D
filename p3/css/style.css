@@ -94,6 +94,14 @@ h2{
     margin: -25px 20px;
 }
 
+#pricing{
+    text-align: center;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 100px;
+}
 /* Responsiveness */
 
 @media (max-width: 1165px){
