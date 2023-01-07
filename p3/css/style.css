@@ -32,8 +32,9 @@
 }
 .dog-image{
     position: absolute;
-    width: 45%;
+    width: 60%;
     transform: rotate(25deg);
+    margin: -60px 60px;
 }
 
 /* Features  Section */
@@ -95,7 +96,7 @@ h2{
 
 /* Responsiveness */
 
-@media (max-width: 1270px){
+@media (max-width: 1165px){
     /* header */
     .dog-image{
         position: static;
