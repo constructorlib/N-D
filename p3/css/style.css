@@ -92,3 +92,20 @@ h2{
     width: 15%;
     margin: -25px 20px;
 }
+
+/* Responsiveness */
+
+@media (max-width: 900px){
+    /* header */
+    .dog-image{
+        display: none;
+    }
+    .mtname{
+        padding: 10px;
+        text-align: center;
+    }
+    #dwnld{
+        margin-top: 30px;
+    }
+
+}
