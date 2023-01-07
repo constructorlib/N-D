@@ -96,11 +96,20 @@ h2{
 
 #pricing{
     text-align: center;
+    padding: 100px;
+    
 }
 #cta{
     text-align: center;
     background-color: #ff4c68;
     padding: 100px;
+}
+#footer{
+    padding: 20px;
+    text-align: center;
+}
+.ftlog i{
+    margin: 5px;
 }
 /* Responsiveness */
 
