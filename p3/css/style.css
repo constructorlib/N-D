@@ -1,6 +1,12 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold !important;
+    font-size: 3rem !important;
+    line-height: 1.5;
+}
 #title{
     background-color: #ff4c68 !important;
 }
@@ -73,12 +79,6 @@
     background-color: #ef8172;
     color: #fff;
 }
-h2{
-    font-family: 'Montserrat';
-    font-weight: bold !important;
-    font-size: 3rem !important;
-    line-height: 1.5;
-}
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
@@ -105,7 +105,7 @@ h2{
     padding: 100px;
 }
 #footer{
-    padding: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 .ftlog i{
