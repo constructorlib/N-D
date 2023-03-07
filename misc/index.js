@@ -13,3 +13,14 @@ function round_up(){
         underweight.style.display = "flex";
     }
 }
+// Get the button element
+var button = document.getElementById("btn-submit");
+
+// Add a click event listener to the button
+button.addEventListener("click", function(event) {
+  // Prevent the default behavior of the button
+  event.preventDefault();
+
+  // Add your custom code here
+  // ...
+});
