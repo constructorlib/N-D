@@ -1,6 +1,10 @@
 // // const isNull = document.getElementById("height").value;
+var underweight = document.getElementsByClassName("underweight");
+// console.log(underweight);
+
+// underweight.map((elem)=>elem.style.display = "flex");
+
 function round_up(){
-    const underweight = document.getElementsByClassName("underweight");
     let height = document.getElementById("height").value;
     height *= height;
     let weight = document.getElementById("weight").value;
@@ -10,19 +14,15 @@ function round_up(){
     // return weight_round;
     console.log(weight_round);
     if(weight_round <= 18){
-        underweight.style.display = "flex";
+        for (let i = 0; i < underweight.length; i++) {
+            underweight[i].style.visibility = "visible";
+            // underweight[i].style.textalign = "center";
+        }
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
-    // Get the button element
-var button = document.getElementById("btn-submit");
-
-// Add a click event listener to the button
-button.addEventListener("click", function(event) {
-  // Prevent the default behavior of the button
-  event.preventDefault();
-
-  // Add your custom code here
-  // ...
+    var button = document.getElementById("btn-submit");
+    button.addEventListener("click", function(event) {
+    event.preventDefault();
     });
-  });
+});
