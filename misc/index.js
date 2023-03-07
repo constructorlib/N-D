@@ -1,22 +1,27 @@
-// // const isNull = document.getElementById("height").value;
 var underweight = document.getElementsByClassName("underweight");
-// console.log(underweight);
+var normal = document.getElementsByClassName("normal");
+console.log(normal);
 
-// underweight.map((elem)=>elem.style.display = "flex");
 
 function round_up(){
     let height = document.getElementById("height").value;
+    height = parseInt(height)
     height *= height;
     let weight = document.getElementById("weight").value;
-    weight /= height;
-    // alert(Math.round(weight));
+    weight = parseInt(weight);
+    weight = height/weight;
     let weight_round = Math.round(weight);
+    console.log(weight_round);
     // return weight_round;
     console.log(weight_round);
     if(weight_round <= 18){
         for (let i = 0; i < underweight.length; i++) {
             underweight[i].style.visibility = "visible";
-            // underweight[i].style.textalign = "center";
+        }
+    } 
+    else if(weight_round > 18 ){
+        for (let i = 0; i < normal.length; i++) {
+            normal[i].style.display = "flex";
         }
     }
 }
