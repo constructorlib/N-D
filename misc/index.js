@@ -12,14 +12,13 @@ function round_up(){
     weight = weight/height;
     console.log(weight);
     let weight_round = Math.round(weight);
-    // console.log(weight_round);
     if(weight_round <= 18){
         for (let i = 0; i < bmiweight.length; i++) {
             bmiweight[i].style.visibility = "visible";
         }
-        bmiweight[0].innerHTML = "12313";
-
-
+        bmiweight[0].innerHTML = "Your BMI is: " + weight_round;
+        bmiweight[1].innerHTML = "It is on unhealthy level."  +
+        " We recommend you to increase your calorie intake and diet.";
     } 
 }
 document.addEventListener("DOMContentLoaded", function() {
