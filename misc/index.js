@@ -3,21 +3,27 @@ var bmiweight = document.getElementsByClassName("bmiweight");
 // console.log(normal);
 
 
+// if(Number.isInteger(height) && Number.isInteger(weight)){
+    //     height = parseInt(height);
+    //     weight = parseInt(weight);
+    // } else{
+    //     height = parseFloat(height);
+    //     weight = parseFloat(weight);
+    // }
+
 function round_up(){
-    let height = document.getElementById("height").valueAsNumber;
-    let weight = document.getElementById("weight").valueAsNumber;
-    if(Number.isInteger(height) && Number.isInteger(weight)){
-        height = parseInt(height);
-        weight = parseInt(weight);
-    } else{
-        height = parseFloat(height);
-        weight = parseFloat(weight);
+    let height = parseInt(document.getElementById("height").value);
+    let weight = document.getElementById("weight").value;
+    console.log(typeof height);
+    if(height > 100){
+        height /= 100;
     }
+    console.log(height);
     // height = parseFloat(height);
     height *= height;
     // weight = parseFloat(weight);
     weight = weight/height;
-    console.log(weight);
+    // console.log(weight);
     let weight_round = Math.round(weight);
     if(weight_round <= 18){
         for (let i = 0; i < bmiweight.length; i++) {
