@@ -4,11 +4,18 @@ var bmiweight = document.getElementsByClassName("bmiweight");
 
 
 function round_up(){
-    let height = document.getElementById("height").value;
-    height = parseFloat(height);
+    let height = document.getElementById("height").valueAsNumber;
+    let weight = document.getElementById("weight").valueAsNumber;
+    if(Number.isInteger(height) && Number.isInteger(weight)){
+        height = parseInt(height);
+        weight = parseInt(weight);
+    } else{
+        height = parseFloat(height);
+        weight = parseFloat(weight);
+    }
+    // height = parseFloat(height);
     height *= height;
-    let weight = document.getElementById("weight").value;
-    weight = parseFloat(weight);
+    // weight = parseFloat(weight);
     weight = weight/height;
     console.log(weight);
     let weight_round = Math.round(weight);
