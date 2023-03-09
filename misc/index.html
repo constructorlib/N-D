@@ -10,10 +10,11 @@
 
     <title>Document</title>
   </head>
-  <body> <!-- onload="alert('sdsd')" -->
+  <body> 
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
+              <br>
                 <form>
                     <div class="mb-3">
                       <label class="form-label">Your height:</label>
@@ -25,21 +26,23 @@
                       <input type="number" class="form-control" placeholder="in kilograms" id="weight">
                     </div>
                     <button type="submit" class="btn btn-primary" id="btn-submit" onclick="round_up()">Submit</button>
+                    <br> <br>
                   </form>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
+              <br>
               <div class="card text-center">
                 <div class="card-header">
                   Your BMI results will appear here:
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title bmiweight" style="visibility: hidden;">Your BMI is either 18
-                  or below it. </h5>
-                  <p class="card-text bmiweight" style="visibility: hidden;">You are underweight. This is bad.</p>
-                  <a href="#" class="btn btn-primary">Learn more</a>
+                  <h5 class="card-title bmiweight">BMI stands for Body Mass Index</h5>
+                  <p class="card-text bmiweight">Although it is somewhat scientifically correct,
+                  you must not refer to it as to a monolith of data.</p>
+                  <a href="#" class="btn btn-primary" id="bmi_link">Learn more</a>
                 </div>
                 <div class="card-footer text-muted">
-                  kvlt
+                  copyright © 2023
                 </div>
               </div>
             </div>
