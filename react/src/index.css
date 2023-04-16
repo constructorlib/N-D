@@ -9,3 +9,9 @@ body{
     background: #f1f5f8;
     color: #222;
 }
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
