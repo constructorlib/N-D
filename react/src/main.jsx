@@ -10,7 +10,7 @@ function RootComponent() {
       <section> 
         <NavBar />
       </section>
-
+      <br />
       <div className="container">
         <div className='row'>
           <BookSection />
@@ -21,16 +21,8 @@ function RootComponent() {
     </>
   );
 }
-
-// const Book = () => {
-//   return (
-//     <div className='row'>
-//       <BookSection />
-//     </div>
-//   );
-// }
 const NavBar = () => (
-  <nav className="navbar bg-light">
+  <nav className="navbar bg-secondary">
     <div className="container-fluid">
       <span className='navbar-brand mb-0 h1'>
         Book Collection
@@ -39,14 +31,6 @@ const NavBar = () => (
   </nav>
 );
 const BookSection = () => (
-  // <div className='col'>
-  //   <h5>I love you to the Moon and back</h5>
-  //   <img src='https://m.media-amazon.com/images/I/8144Vic9C5L._AC_UF1000,1000_QL80_.jpg' 
-  //   width='250px' alt='' />
-  //   <br /> <br />
-  //   <p> <i>By</i> Dinora Khoshimova</p>
-  // </div>
-  
   <div className="col">
     <div className="card" style={{width: "18rem"}}>
       <img src='https://m.media-amazon.com/images/I/8144Vic9C5L._AC_UF1000,1000_QL80_.jpg' 
