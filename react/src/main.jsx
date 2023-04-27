@@ -6,18 +6,36 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // var setup
 
-const bookName = [
-  "Love you to the Moon and back",
-  "Fellowship of the Ring",
-  "The Two Towers",
-];
+// const bookName = [
+//   "Love you to the Moon and back",
+//   "Fellowship of the Ring",
+//   "The Two Towers",
+// ];
 
-const images = [
-  "https://m.media-amazon.com/images/I/8144Vic9C5L._AC_UF1000,1000_QL80_.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif",
-  "https://cdn.shopify.com/s/files/1/0285/2821/4050/products/9780007322503_1574x.jpg?v=1675338321",
+// const images = [
+//   "https://m.media-amazon.com/images/I/8144Vic9C5L._AC_UF1000,1000_QL80_.jpg",
+//   "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif",
+//   "https://cdn.shopify.com/s/files/1/0285/2821/4050/products/9780007322503_1574x.jpg?v=1675338321",
+// ];
+// const bookAuthor = ["Amelia Hepworth", "J.R. R Tolkien", "J.R. R Tolkien"];
+
+const BookDisplay = [
+  {
+    img: "https://m.media-amazon.com/images/I/8144Vic9C5L._AC_UF1000,1000_QL80_.jpg",
+    bookName: "Love you to the Moon and Back",
+    bookAuthor: "Amelia Hepworth",
+  },
+  {
+    img: "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif",
+    bookName: "Fellowship of the Ring",
+    bookAuthor: "J. R. R Tolkien",
+  },
+  {
+    img: "https://cdn.shopify.com/s/files/1/0285/2821/4050/products/9780007322503_1574x.jpg?v=1675338321",
+    bookName: "The Two Towers",
+    bookAuthor: "J. R. R. Tolkien",
+  },
 ];
-const bookAuthor = ["Amelia Hepworth", "J.R. R Tolkien", "J.R. R Tolkien"];
 // var invoke
 function RootComponent() {
   return (
@@ -28,21 +46,9 @@ function RootComponent() {
       <br />
       <div className="container">
         <div className="row">
-          <BookSection
-            image={images[0]}
-            bookName={bookName[0]}
-            bookAuthor={bookAuthor[0]}
-          />
-          <BookSection
-            image={images[1]}
-            bookName={bookName[1]}
-            bookAuthor={bookAuthor[1]}
-          />
-          <BookSection
-            image={images[2]}
-            bookName={bookName[2]}
-            bookAuthor={bookAuthor[2]}
-          />
+          {BookDisplay.map((book) => {
+            return "hello";
+          })}
         </div>
       </div>
     </>
@@ -56,7 +62,7 @@ const NavBar = () => (
   </nav>
 );
 const BookSection = (props) => {
-  const { image, bookName, bookAuthor } = props;
+  const { image, bookName, bookAuthor, children } = props;
   return (
     <div className="col">
       <div className="card" style={{ width: "22rem" }}>
@@ -75,6 +81,7 @@ const BookSection = (props) => {
           </a>
         </div>
       </div>
+      {children}
     </div>
   );
 };
