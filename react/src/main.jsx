@@ -4,21 +4,6 @@ import ReactDom from "react-dom";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// var setup
-
-// const bookName = [
-//   "Love you to the Moon and back",
-//   "Fellowship of the Ring",
-//   "The Two Towers",
-// ];
-
-// const images = [
-//   "https://m.media-amazon.com/images/I/8144Vic9C5L._AC_UF1000,1000_QL80_.jpg",
-//   "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif",
-//   "https://cdn.shopify.com/s/files/1/0285/2821/4050/products/9780007322503_1574x.jpg?v=1675338321",
-// ];
-// const bookAuthor = ["Amelia Hepworth", "J.R. R Tolkien", "J.R. R Tolkien"];
-
 const BookDisplay = [
   {
     image:
@@ -50,7 +35,6 @@ function RootComponent() {
       <div className="container">
         <div className="row">
           {BookDisplay.map((book) => {
-            const { image, bookName, bookAuthor } = book;
             return <BookSection book={book} />;
           })}
         </div>
@@ -65,8 +49,8 @@ const NavBar = () => (
     </div>
   </nav>
 );
-const BookSection = (props) => {
-  const { image, bookName, bookAuthor, children } = props.book;
+const BookSection = ({ book }) => {
+  const { image, bookName, bookAuthor, children } = book;
   return (
     <div className="col">
       <div className="card" style={{ width: "22rem" }}>
