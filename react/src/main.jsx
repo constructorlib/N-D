@@ -35,13 +35,14 @@ function RootComponent() {
       <div className="container">
         <div className="row">
           {BookDisplay.map((book) => {
-            return <BookSection book={book} />;
+            return <BookSection params={book} />;
           })}
         </div>
       </div>
     </>
   );
 }
+// navbar
 const NavBar = () => (
   <nav className="navbar bg-secondary">
     <div className="container-fluid">
@@ -49,8 +50,12 @@ const NavBar = () => (
     </div>
   </nav>
 );
-const BookSection = ({ book }) => {
-  const { image, bookName, bookAuthor, children } = book;
+// book
+const BookSection = ({ params }) => {
+  const { image, bookName, bookAuthor, children } = params;
+  const clickHandler = () => {
+    alert("Hello World");
+  };
   return (
     <div className="col">
       <div className="card" style={{ width: "22rem" }}>
@@ -64,7 +69,7 @@ const BookSection = ({ book }) => {
             <i>By </i>
             {bookAuthor}
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="#" className="btn btn-primary" onClick={clickHandler}>
             Add to cart
           </a>
         </div>
