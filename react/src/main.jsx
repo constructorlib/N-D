@@ -5,6 +5,7 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BookDisplay } from "./bookDisplay";
 import BookSection from "./BookSection";
+import { faVolumeUp } from "@fortawesome/free-solid-svg-icons";
 // var invoke
 const url =
   "https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=your-api-key";
@@ -18,6 +19,18 @@ function RootComponent() {
           id="word-input"
         />
         <button id="search-btn ">Search</button>
+      </div>
+      <div className="result">
+        <div className="sample">
+          <h3>Sample OLD MAN</h3>
+          <button>
+            <i className="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <div className="details">
+          <p>pos</p>
+          <p>/sample/</p>
+        </div>
       </div>
     </div>
   );
