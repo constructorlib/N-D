@@ -6,22 +6,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BookDisplay } from "./bookDisplay";
 import BookSection from "./BookSection";
 // var invoke
+const url =
+  "https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=your-api-key";
 function RootComponent() {
   return (
-    <>
-      <section>
-        <NavBar />
-      </section>
-      <br />
-      <div className="container">
-        <div className="row">
-          <p></p>
-          {BookDisplay.map((book) => {
-            return <BookSection params={book} />;
-          })}
-        </div>
+    <div className="loot">
+      <div className="ctn">
+        <input
+          type="text"
+          placeholder="Type the word here... "
+          id="word-input"
+        />
+        <button id="search-btn ">Search</button>
       </div>
-    </>
+    </div>
   );
 }
 // navbar
@@ -35,3 +33,21 @@ const NavBar = () => (
 // book
 
 ReactDom.render(<RootComponent />, document.getElementById("root"));
+
+/*
+<>
+      <section>
+        <NavBar />
+      </section>
+      <br />
+      <div className="container">
+        <div className="row">
+          <p></p>
+          {BookDisplay.map((book) => {
+            return <BookSection params={book} />;
+          })}
+        </div>
+      </div>
+    </>
+
+*/
