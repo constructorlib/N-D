@@ -7,33 +7,33 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeUp } from "@fortawesome/free-solid-svg-icons";
 
 function RootComponent() {
-  const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
-  const [word, setWord] = useState("");
-  const [meaning, setMeaning] = useState("");
-  const [example, setExample] = useState("");
-  const [partOfSpeech, setPartOfSpeech] = useState("");
-  const [phonetic, setPhonetic] = useState("");
-  const [audio, setAudio] = useState("");
+  // const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
+  // const [word, setWord] = useState("");
+  // const [meaning, setMeaning] = useState("");
+  // const [example, setExample] = useState("");
+  // const [partOfSpeech, setPartOfSpeech] = useState("");
+  // const [phonetic, setPhonetic] = useState("");
+  // const [audio, setAudio] = useState("");
 
-  const handleSearch = () => {
-    fetch(`${url}${word}`)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        setMeaning(data[0].meanings[0].definitions[0].definition);
-        setExample(data[0].meanings[0].definitions[0].example || "");
-        setPartOfSpeech(data[0].meanings[0].partOfSpeech);
-        setPhonetic(data[0].phonetics[0].text);
-        setAudio(data[0].phonetics[0].audio);
-      })
-      .catch(() => {
-        setMeaning("Couldn't find the word");
-        setExample("");
-        setPartOfSpeech("");
-        setPhonetic("");
-        setAudio("");
-      });
-  };
+  // const handleSearch = () => {
+  //   fetch(`${url}${word}`)
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       console.log(data);
+  //       setMeaning(data[0].meanings[0].definitions[0].definition);
+  //       setExample(data[0].meanings[0].definitions[0].example || "");
+  //       setPartOfSpeech(data[0].meanings[0].partOfSpeech);
+  //       setPhonetic(data[0].phonetics[0].text);
+  //       setAudio(data[0].phonetics[0].audio);
+  //     })
+  //     .catch(() => {
+  //       setMeaning("Couldn't find the word");
+  //       setExample("");
+  //       setPartOfSpeech("");
+  //       setPhonetic("");
+  //       setAudio("");
+  //     });
+  // };
 
   const playSound = () => {
     const audioElement = document.getElementById("audio");
@@ -70,13 +70,4 @@ function RootComponent() {
     </div>
   );
 }
-
-const NavBar = () => (
-  <nav className="navbar bg-secondary">
-    <div className="container-fluid">
-      <span className="navbar-brand mb-0 h1">Book Collection</span>
-    </div>
-  </nav>
-);
-
 ReactDOM.render(<RootComponent />, document.getElementById("root"));
